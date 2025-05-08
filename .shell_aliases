@@ -1,41 +1,11 @@
 # Common aliases for both bash and zsh
 
-# Directory navigation
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias ~='cd ~'
-
-# List directory contents
-alias ls='ls -G'  # Color output
-alias ll='ls -lah'  # Long format, all files, human readable sizes
-alias la='ls -A'  # All files except . and ..
-alias l='ls -CF'  # Column format
-
 # Git shortcuts
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gp='git push'
-alias gl='git pull'
-alias gd='git diff'
-alias gco='git checkout'
-alias gb='git branch'
+alias ga="git add"
+alias gcm="git commit -m"
+alias gpl="git pull"
+alias gpo="git push origin"
 
-# Python/Django specific
-alias py='python3'
-alias pip='pip3'
-alias dj='python manage.py'
-alias djs='python manage.py runserver'
-alias djm='python manage.py migrate'
-alias djmk='python manage.py makemigrations'
-
-# Node/npm shortcuts
-alias ni='npm install'
-alias nid='npm install --save-dev'
-alias nr='npm run'
-alias ns='npm start'
-alias nt='npm test'
 
 # System
 alias c='clear'
@@ -48,22 +18,3 @@ alias zshconfig='code ~/.zshrc'
 alias bashconfig='code ~/.bashrc'
 alias aliases='code ~/.shell_aliases'
 
-# Docker shortcuts
-alias d='docker'
-alias dc='docker-compose'
-alias dps='docker ps'
-alias di='docker images'
-
-# Network
-alias myip='curl http://ipecho.net/plain; echo'
-alias ports='netstat -tulanp'
-
-# Safety
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-# Utility
-alias df='df -h'  # Human readable sizes
-alias du='du -h'  # Human readable sizes
-alias free='free -h'  # Human readable sizes 
