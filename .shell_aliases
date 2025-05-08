@@ -10,8 +10,9 @@ alias gpo="git push origin"
 # System
 alias c='clear'
 alias h='history'
-alias path='echo -e ${PATH//:/\\n}'  # Print PATH entries on separate lines
-alias mkdir='mkdir -p'  # Create parent directories if needed
+alias path='echo -e ${PATH//:/\\n}'
+alias mkdir='mkdir -p'
+alias caf='caffeinate'
 
 # Quick edit
 alias zshconfig='code ~/.zshrc'
