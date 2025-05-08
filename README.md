@@ -1,6 +1,6 @@
 # Shell Aliases
 
-This repository contains my shell aliases that work across both Zsh and Bash shells.
+This repository contains my aliases that work across both Zsh and Bash shells.
 
 ## Installation
 
@@ -20,19 +20,3 @@ if [ -f ~/.shell_aliases ]; then
     . ~/.shell_aliases
 fi
 ```
-
-## Available Aliases
-
-The `.shell_aliases` file includes shortcuts for:
-- Directory navigation
-- Git commands
-- Python/Django development
-- Node.js development
-- Docker commands
-- System utilities
-- Network commands
-- And more!
-
-## Customization
-
-Feel free to modify the `.shell_aliases` file to add your own custom aliases or remove ones you don't use. 
