@@ -17,6 +17,8 @@ ln -s ~/dotfiles/.shell_aliases ~/.shell_aliases
 3. Add the following to your `.zshrc` or `.bashrc`:
 ```bash
 if [ -f ~/.shell_aliases ]; then
+      echo "adding my own aliases"
     . ~/.shell_aliases
 fi
+
 ```
