@@ -1,13 +1,16 @@
 # Common aliases for both bash and zsh
 
-# Git shortcuts
-alias ga="git add"
-alias gcm="git commit -m"
-alias gpl="git pull"
-alias gpo="git push origin"
+# Git Shortcuts/Aliases
+alias ga='git add'
+alias gcm='git commit -m'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gpo='git push origin $(git symbolic-ref --short HEAD)'
+alias gpl='git pull'
+alias grb='git rebase'
+alias gs='git switch'
+alias gst='git stash'
 
-
-# System
 alias c='clear'
 alias h='history'
 alias path='echo -e ${PATH//:/\\n}'
@@ -18,4 +21,6 @@ alias caf='caffeinate'
 alias zshconfig='code ~/.zshrc'
 alias bashconfig='code ~/.bashrc'
 alias aliases='code ~/.shell_aliases'
+
+alias dotfiles='cd ~/dotfiles'
 
