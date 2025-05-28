@@ -10,12 +10,16 @@ alias gpl='git pull'
 alias grb='git rebase'
 alias gs='git switch'
 alias gst='git stash'
+alias gri='git rebase -i'
+alias grc='git rebase --continue'
+
 
 alias c='clear'
 alias h='history'
 alias path='echo -e ${PATH//:/\\n}'
 alias mkdir='mkdir -p'
 alias caf='caffeinate'
+alias refresh_bash='source ~/.bash_profile'
 
 # Quick edit
 alias zshconfig='code ~/.zshrc'
@@ -24,3 +28,12 @@ alias aliases='code ~/.shell_aliases'
 
 alias dotfiles='cd ~/dotfiles'
 
+alias work="timer 60m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
