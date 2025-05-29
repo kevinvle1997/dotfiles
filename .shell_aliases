@@ -28,6 +28,8 @@ alias aliases='code ~/.shell_aliases'
 
 alias dotfiles='cd ~/dotfiles'
 
+
+# need brew install caarlos0/tap/timer
 alias work="timer 60m && terminal-notifier -message 'Pomodoro'\
         -title 'Work Timer is up! Take a Break 😊'\
         -appIcon '~/Pictures/pumpkin.png'\
