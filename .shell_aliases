@@ -39,3 +39,17 @@ alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
         -title 'Break is over! Get back to work 😬'\
         -appIcon '~/Pictures/pumpkin.png'\
         -sound Crystal"
+
+# Utility Commands
+alias tldr='tldr'  # Simpler man pages with practical examples
+alias timeout='timeout'  # Run commands with time limit
+alias ncdu='ncdu'  # Interactive disk usage analyzer
+alias fd='fd'  # User-friendly alternative to find
+alias trash='trash'  # Safer file deletion (moves to trash)
+alias trash-restore='trash-restore'  # Restore files from trash
+
+# Note: To use these commands, you'll need to install them first:
+# - tldr: brew install tldr
+# - ncdu: brew install ncdu
+# - fd: brew install fd
+# - trash: brew install trash
