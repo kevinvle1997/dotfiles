@@ -1,6 +1,6 @@
-# Shell Aliases
+# Dotfiles
 
-This repository contains my aliases that work across both Zsh and Bash shells.
+This repository contains my dotfiles including shell aliases (works across both Zsh and Bash) and WezTerm configuration.
 
 ## Installation
 
@@ -9,9 +9,13 @@ This repository contains my aliases that work across both Zsh and Bash shells.
 git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
 ```
 
-2. Create a symbolic link to the aliases file:
+2. Create symbolic links to the configuration files:
 ```bash
+# Shell aliases
 ln -s ~/dotfiles/.shell_aliases ~/.shell_aliases
+
+# WezTerm configuration
+ln -s ~/dotfiles/.wezterm.lua ~/.wezterm.lua
 ```
 
 3. Add the following to your `.zshrc` or `.bashrc`:

@@ -20,6 +20,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias mkdir='mkdir -p'
 alias caf='caffeinate'
 alias refresh_bash='source ~/.bash_profile'
+alias refresh_zsh='source ~/.zshrc'
 
 # Quick edit
 alias zshconfig='code ~/.zshrc'
